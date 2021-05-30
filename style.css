@@ -84,6 +84,8 @@ body {
 }
 
 #foot {
+	width: 20rem;
+	margin: auto;
 	margin-top: 7.5rem;
 	background-color: gray;
 	opacity: 80%;
@@ -93,6 +95,7 @@ body {
 #foot p:first-child{
 	/*margin-right: 1rem;*/
 	/*text-align: center;*/
+	margin-left: -0.5rem;
 }
 
 #foot p:last-child{
