@@ -97,7 +97,7 @@ body {
 #foot p:first-child{
 	/*margin-right: 1rem;*/
 	/*text-align: center;*/
-	margin-left: -0.5rem;
+	margin:2rem 0 0 -0.5rem;
 }
 
 #foot p:last-child{
