@@ -7,7 +7,7 @@ body {
 
 .container {
 	height: 50rem;
-	width: 102rem;
+	width: 80rem;
 	margin: 2rem 0 0 2rem;
 	display: flex;
 	background-color: white;
@@ -19,8 +19,6 @@ body {
 	position: relative;
 	height: 49rem;
 	width: 25rem;
-	/*height: 100%;
-	width: 25%;*/
 	margin: 1rem;
 	border: 50px black;
 	background-color: yellow;
