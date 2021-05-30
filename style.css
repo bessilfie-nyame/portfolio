@@ -85,14 +85,14 @@ body {
 
 #foot {
 	width: 20rem;
-	height: 6.5rem;
+	height: 5.5rem;
 	margin: auto;
 	margin-top: 7.5rem;
 	background-color: gray;
 	opacity: 80%;
 	text-align: center;
 	font-size: 1rem;
-	padding-top: 0.9rem;
+	padding-top: 2rem;
 }
 
 #foot p:first-child{
