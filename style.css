@@ -87,16 +87,17 @@ body {
 	margin-top: 7.5rem;
 	background-color: gray;
 	opacity: 80%;
+	text-align: center;
 }
 
 #foot p:first-child{
 	/*margin-right: 1rem;*/
-	text-align: center;
+	/*text-align: center;*/
 }
 
 #foot p:last-child{
 	/*margin-right: 1rem;*/
-	text-align: center;
+	/*text-align: center;*/
 }
 
 /*===========================*/
