@@ -8,40 +8,38 @@ body {
 
 .container {
 	height: 50rem;
-	width: 102rem;
+	width: 70rem;
 	margin: 30px 0 0 30px;
 	display: flex;
 	background-color: white;
 	border-radius: 20px;
-	padding-bottom: 1rem;
+	padding-bottom: 20px;
 }
 
 .profile {
 	position: relative;
-	height: 49rem;
+	height: 40rem;
 	width: 25rem;
 	/*height: 100%;
 	width: 25%;*/
-	margin: 1rem;
+	margin: 10px;
 	border: 50px black;
-	background-color: yellow;
 }
 
-/*.content {
+.content {
 	position: relative;
-	height: 1;
+	height: 100%;
 	width: 75%;
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
 	grid-column-gap: 20px;
 	grid-row-gap: 20px;
-	background-color: green;
-	/*margin: 10px 10px 0 0;*/
-	/*margin: 0.5rem 0.5rem 0 0;
+	/*background-color: green;*/
+	margin: 10px 10px 0 0;
 	color: white;
 	font-weight: 800;
 	font-size: 1.4rem;
-}*/
+}
 
 /*============================*/
 
@@ -49,7 +47,7 @@ body {
 	height: 20rem;
 	width: 20rem;
 	margin: auto;
-	margin-top: 0.2rem;
+	margin-top: 15px;
 } 
 
 .profile-img img {
@@ -58,7 +56,6 @@ body {
 	border-radius: 50%;
 }
 
-/*
 .profile ul {
 	list-style: none;
 	display: flex;
@@ -92,10 +89,10 @@ body {
 	margin-top: 7.7rem;
 	background-color: gray;
 	opacity: 80%;
-}*/
+}
 
 /*===========================*/
-/*#education {
+#education {
 	background-image: url("./img/grad.jpg");
 	clip-path: polygon(0 0, 50% 10%, 100% 0%, 100% 100%, 50% 90%, 0 100%);
 	color: white;
@@ -169,7 +166,7 @@ body {
 
 .no-list-style {
 	list-style: none;
-}*/
+}
 
 /*===============*/
 
