@@ -36,7 +36,7 @@ body {
 	margin: 0.5rem 0.5rem 0 0rem;
 	color: white;
 	font-weight: 800;
-	font-size: 1.4rem;
+	font-size: 1.2rem;
 }
 
 /*============================*/
@@ -63,13 +63,13 @@ body {
 .profile li a {
 	margin: 0 1rem 0 1rem;
 	color: black;
-	font-size: 1.5rem;
+	font-size: 1.2rem;
 }
 
 .profile p {
 	margin: auto;
 	margin-left: 1.7rem;
-	font-size: 1.7rem;
+	font-size: 1.2rem;
 }
 
 .interest {
@@ -79,7 +79,7 @@ body {
 }
 
 .interest p{
-	font-size: 1.3rem;
+	font-size: 1.2rem;
 	font-weight: 500;
 }
 
