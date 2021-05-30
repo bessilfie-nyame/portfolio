@@ -1,0 +1,193 @@
+body {
+	height: 80vh;
+	width: 80vw;
+	background-color: black;
+	font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+	font-size: 20px;
+}
+
+.container {
+	height: 50rem;
+	width: 102rem;
+	margin: 30px 0 0 30px;
+	display: flex;
+	background-color: white;
+	border-radius: 20px;
+	padding-bottom: 20px;
+}
+
+.profile {
+	position: relative;
+	height: 100%;
+	width: 25%;
+	margin: 10px;
+	border: 50px black;
+}
+
+.content {
+	position: relative;
+	height: 100%;
+	width: 75%;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-column-gap: 20px;
+	grid-row-gap: 20px;
+	/*background-color: green;*/
+	margin: 10px 10px 0 0;
+	color: white;
+	font-weight: 800;
+	font-size: 1.4rem;
+}
+
+/*============================*/
+
+.profile-img {
+	height: 20rem;
+	width: 20rem;
+	margin: auto;
+	margin-top: 15px;
+} 
+
+.profile-img img {
+	height: 100%;
+	width: 100%;
+	border-radius: 50%;
+}
+
+.profile ul {
+	list-style: none;
+	display: flex;
+	margin-left: 4.5rem;
+}
+
+.profile li a {
+	margin: 0 1rem 0 1rem;
+	color: black;
+	font-size: 1.5rem;
+}
+
+.profile p {
+	margin: auto;
+	margin-left: 1.7rem;
+	font-size: 1.7rem;
+}
+
+.interest {
+	margin: auto;
+	margin-top: 5rem;
+	padding: 1rem 0 1rem 0;
+}
+
+.interest p{
+	font-size: 1.3rem;
+	font-weight: 500;
+}
+
+#foot {
+	margin-top: 7.7rem;
+	background-color: gray;
+	opacity: 80%;
+}
+
+/*===========================*/
+#education {
+	background-image: url("./img/grad.jpg");
+	clip-path: polygon(0 0, 50% 10%, 100% 0%, 100% 100%, 50% 90%, 0 100%);
+	color: white;
+}
+
+#education h3 {
+	margin-top: 2.5rem;
+}
+
+#education ul li {
+	padding-bottom: 2rem;
+}
+
+#education span {
+	margin-top: 4rem;
+	font-style: italic;
+	color: black;
+}
+
+#work {
+	background-image: url("./img/grad.jpg");
+	grid-column-start: 2;
+	grid-column-end: 4;
+	clip-path: polygon(0 0, 80% 0, 100% 20%, 100% 100%, 0% 100%);
+}
+
+#work p {
+	margin-left: 1rem;
+}
+
+#vid {
+	background-color: gray;
+	grid-column-start: 1;
+	grid-column-end: 3;
+}
+
+#skills {
+	background-image: url("./img/grad.jpg");
+	clip-path: polygon(0 0, 100% 0, 100% 80%, 80% 100%, 0 100%);
+}
+
+#skills ul {
+	margin: auto;
+}
+
+
+#skills li {
+	padding: 2rem;
+}
+
+.headings {
+	text-align: center;
+	margin: auto;
+	color: black;
+	background-color: lightblue;
+	opacity: 70%;
+	width: 15rem;
+}
+
+.top-height {
+	height: 25rem;
+}
+
+.bottom-height {
+	height: 23.5rem;
+}
+
+#education ul {
+	list-style: none;
+}
+
+.no-list-style {
+	list-style: none;
+}
+
+/*===============*/
+
+
+@media all and (min-width: 520px) and (max-width: 1151px){
+	body {
+		height: 30vh;
+		width: 30vw;
+	}
+	.container {
+		display: block;
+		height: 50rem;
+		width: 33rem;
+	}
+	.profile {
+		height: 35%;
+		width: 100%;
+	}
+
+	.content {
+		position: relative;
+		height: 65%;
+		width: 100%;
+		display: grid;
+	}
+}
