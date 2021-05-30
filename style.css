@@ -75,19 +75,28 @@ body {
 .interest {
 	margin: auto;
 	margin-top: 5rem;
-	padding: 0 0 1rem 0;
+	padding: 1rem 0 1rem 0;
 }
 
 .interest p{
 	font-size: 1.1rem;
 	font-weight: 500;
-	margin-right: 1rem;
 }
 
 #foot {
 	margin-top: 7.5rem;
 	background-color: gray;
 	opacity: 80%;
+}
+
+#foot p:first-child{
+	/*margin-right: 1rem;*/
+	text-align: center;
+}
+
+#foot p:last-child{
+	/*margin-right: 1rem;*/
+	text-align: center;
 }
 
 /*===========================*/
