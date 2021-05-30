@@ -7,8 +7,8 @@ body {
 
 .container {
 	height: 50rem;
-	width: 80rem;
-	margin: 2rem 0 0 2rem;
+	width: 98%;
+	margin: 2rem 0 0 1rem;
 	display: flex;
 	background-color: white;
 	border-radius: 20px;
@@ -17,28 +17,27 @@ body {
 
 .profile {
 	position: relative;
-	height: 49rem;
+	height: 50rem;
 	width: 25rem;
-	margin: 1rem;
+	margin: 0.5rem;
 	border: 50px black;
-	background-color: yellow;
 }
 
-/*.content {
+.content {
 	position: relative;
-	height: 1;
-	width: 75%;
+	height: 50rem;
+	width: 80rem;
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
 	grid-column-gap: 20px;
 	grid-row-gap: 20px;
 	background-color: green;
 	/*margin: 10px 10px 0 0;*/
-	/*margin: 0.5rem 0.5rem 0 0;
+	margin: 0.5rem 0.5rem 0 0rem;
 	color: white;
 	font-weight: 800;
 	font-size: 1.4rem;
-}*/
+}
 
 /*============================*/
 
@@ -55,7 +54,6 @@ body {
 	border-radius: 50%;
 }
 
-/*
 .profile ul {
 	list-style: none;
 	display: flex;
@@ -86,10 +84,10 @@ body {
 }
 
 #foot {
-	margin-top: 7.7rem;
+	margin-top: 7.5rem;
 	background-color: gray;
 	opacity: 80%;
-}*/
+}
 
 /*===========================*/
 /*#education {
