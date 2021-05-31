@@ -96,18 +96,11 @@ body {
 }
 
 #foot p:first-child{
-	/*margin-right: 1rem;*/
-	/*text-align: center;*/
 	margin-left: -0.5rem;
 }
 
-#foot p:last-child{
-	/*margin-right: 1rem;*/
-	/*text-align: center;*/
-}
-
 /*===========================*/
-/*#education {
+#education {
 	background-image: url("./img/grad.jpg");
 	clip-path: polygon(0 0, 50% 10%, 100% 0%, 100% 100%, 50% 90%, 0 100%);
 	color: white;
@@ -181,7 +174,7 @@ body {
 
 .no-list-style {
 	list-style: none;
-}*/
+}
 
 /*===============*/
 
