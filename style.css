@@ -181,7 +181,7 @@ body {
 /*===============*/
 
 
-/*@media all and (min-width: 520px) and (max-width: 1151px){
+@media all and (min-width: 520px) and (max-width: 1151px){
 	body {
 		height: 30vh;
 		width: 30vw;
@@ -202,4 +202,4 @@ body {
 		width: 100%;
 		display: grid;
 	}
-}*/
+}
