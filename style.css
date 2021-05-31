@@ -21,6 +21,7 @@ body {
 	width: 25rem;
 	margin: 0.5rem;
 	border: 50px black;
+	background-image: url("./img/grad.jpg");
 }
 
 .content {
@@ -31,8 +32,6 @@ body {
 	grid-template-columns: 1fr 1fr 1fr;
 	grid-column-gap: 20px;
 	grid-row-gap: 20px;
-	background-color: green;
-	/*margin: 10px 10px 0 0;*/
 	margin: 0.5rem 0.5rem 0 0rem;
 	color: white;
 	font-weight: 800;
