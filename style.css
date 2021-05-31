@@ -108,6 +108,10 @@ body {
 	margin-top: 2.5rem;
 }
 
+#education ul {
+	padding-right: 2rem;
+}
+
 #education ul li {
 	padding-bottom: 2rem;
 }
